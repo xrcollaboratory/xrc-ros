@@ -13,9 +13,9 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='hh',
+    maintainer='Harald Haraldsson',
     maintainer_email='530725+haraldsson@users.noreply.github.com',
-    description='TODO: Package description',
+    description='ROS 2 package for motor control.',
     license='MIT',
     tests_require=['pytest'],
     entry_points={

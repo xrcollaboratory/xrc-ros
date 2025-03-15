@@ -3,7 +3,7 @@
 <package format="3">
   <name>xrc_interfaces</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Interfaces</description>
   <maintainer email="530725+haraldsson@users.noreply.github.com">hh</maintainer>
   <license>MIT</license>
 
