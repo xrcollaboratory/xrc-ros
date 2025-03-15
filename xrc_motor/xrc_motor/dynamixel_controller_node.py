@@ -21,8 +21,6 @@ from dynamixel_sdk import PacketHandler
 from dynamixel_sdk import PortHandler
 from xrc_interfaces.msg import SetPosition
 from xrc_interfaces.srv import GetPosition
-#from dynamixel_sdk_custom_interfaces.msg import SetPosition
-#from dynamixel_sdk_custom_interfaces.srv import GetPosition
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile
