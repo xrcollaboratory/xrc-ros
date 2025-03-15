@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+        "dynamixel_controller_node = xrc_motor.dynamixel_controller_node:main"
         ],
     },
 )
