@@ -45,7 +45,10 @@ class DynamixelControllerNode(Node):
                 self.protocol_version = 2.0
 
             if self.baudrate == 1000000:
-                self.get_logger().info('Using 1000000 baudrate for X series. Default is 57600.')
+                self.get_logger().warning('Default baudrate 1000000 detected for X series. Switching to 57600.')
+                self.baudrate = 57600
+            elif self.baudrate != 57600:
+                self.get_logger().info(f'Using custom baudrate {self.baudrate} for X series. Default is 57600.')
         else:
             # Default to AX-12A addresses
             self.ADDR_CW_ANGLE_LIMIT = 6
